@@ -1,0 +1,123 @@
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    padding-left: 36px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 32px;
+
+    padding-left: 156px;
+    padding-top: 36px;
+}
+
+.date-picker {
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 8px;
+
+    /* width: 355px; */
+    height: 40px;
+}
+
+#datetime-picker {
+    border-radius: 4px;
+    border: 1px solid #808080;
+    /* width: 272px; */
+    /* height: 40px; */
+    background-color: #fff;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+
+    padding: 8px 87.5px 8px 16px;
+}
+
+#datetime-picker:hover {
+    border: 1px solid #000;
+}
+
+#datetime-picker:disabled {
+    border: 1px solid #808080;
+    background-color: #fafafa;
+    color: #808080;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    /* width: 75px; */
+    /* height: 40px; */
+    background: #4e75ff;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #6c8cff;
+}
+
+button:disabled {
+    color: #989898;
+    background: #cfcfcf;
+}
+
+.timer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 24px;
+
+    /* width: 346px; */
+    /* height: 72px; */
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.value {
+    font-weight: 400;
+    font-size: 40px;
+    
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.label {
+    font-weight: 400;
+    font-size: 16px;
+
+    line-height: 1.5;
+    color: #2e2f42;
+}
